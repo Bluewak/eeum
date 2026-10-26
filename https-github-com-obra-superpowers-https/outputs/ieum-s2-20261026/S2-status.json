@@ -1,0 +1,27 @@
+{
+  "session_id": "S2",
+  "milestone": "M1",
+  "status": "ready",
+  "contract_version": "1.0 provisional",
+  "changed_files": [
+    "backend/data/__init__.py",
+    "backend/data/sources.py",
+    "backend/data/source_bridge.mjs",
+    "backend/rules/__init__.py",
+    "backend/rules/evaluation.py",
+    "tests/test_s2.py",
+    "smoke_s2.py",
+    "docs/s2-handoff.md",
+    "docs/s2-design.md",
+    "docs/s2-plan.md",
+    "docs/s2-review.md",
+    "s2-source-manifest.json",
+    "evidence/s2/gn001-result.json"
+  ],
+  "local_project": "C:\\Users\\A\\Documents\\ChatGPT\\빅콘\\ieum-map-mvp",
+  "input_fixture": "original domain.js:createDemoCases()[GN-001]",
+  "output_example": "evidence/s2/gn001-result.json",
+  "one_run_result": "GN-001 once on 2026-10-25; final 7 unit checks passed on 2026-10-26 after date fix and local copy",
+  "blocker": "S0 confirmed schema and S3 integration not received",
+  "next_handoff": "S0 confirms fields; S3 imports the five functions"
+}

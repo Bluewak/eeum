@@ -1,0 +1,12 @@
+test_age_boundary_does_not_clear_other_conditions (test_s2.S2Checks.test_age_boundary_does_not_clear_other_conditions) ... ok
+test_calendar_and_limit_validation (test_s2.S2Checks.test_calendar_and_limit_validation) ... ok
+test_candidate_with_common_contract_minimum_fields (test_s2.S2Checks.test_candidate_with_common_contract_minimum_fields) ... ok
+test_failed_candidate_never_requests_resident_documents (test_s2.S2Checks.test_failed_candidate_never_requests_resident_documents) ... ok
+test_interfaces_are_available (test_s2.S2Checks.test_interfaces_are_available) ... ok
+test_malformed_source_dates_never_claim_open (test_s2.S2Checks.test_malformed_source_dates_never_claim_open) ... ok
+test_missing_and_unusable_inputs_stay_unknown (test_s2.S2Checks.test_missing_and_unusable_inputs_stay_unknown) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.020s
+
+OK

@@ -1,0 +1,1580 @@
+{
+  "session_id": "S2",
+  "milestone": "M1",
+  "status": "ready",
+  "contract_version": "1.0",
+  "contract_status": "provisional",
+  "input_fixture": "original dist/domain.js:createDemoCases()[GN-001]",
+  "as_of": "2026-10-25",
+  "case": {
+    "case_id": "GN-001",
+    "case_revision": "source-sha256:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad",
+    "profile_snapshot": {
+      "gender": "남성",
+      "maritalStatus": "이혼",
+      "livingArrangement": "혼자 거주",
+      "employmentStatus": "현재 근로 없음",
+      "pastEmployment": "일용근로",
+      "jobSeeking": "yes",
+      "familyContact": "no",
+      "friendContact": "no",
+      "economicSupport": "no",
+      "dailySupport": "no",
+      "emotionalSupport": "no",
+      "incomeConfirmed": "unknown",
+      "assignee": "미배정",
+      "dueDate": "2026-10-26",
+      "selectedProgramId": null,
+      "consent": false,
+      "urgent": true,
+      "createdAt": "2026-10-25T09:00:00+09:00",
+      "synthetic": true,
+      "locationPrecision": "동 중심 부근 합성 좌표",
+      "id": "GN-001",
+      "alias": "김○○",
+      "region": "gangnam",
+      "dong": "역삼1동",
+      "lat": 37.5006,
+      "lng": 127.0355,
+      "age": 63,
+      "needs": [
+        "employment",
+        "connection"
+      ],
+      "status": "new",
+      "summary": "최근 근로가 없으며 재취업과 정기적인 모임 참여를 희망합니다. 본인이 빠른 상담을 요청했습니다.",
+      "notes": [],
+      "history": [],
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001"
+      ],
+      "age_as_of": "2026-10-25"
+    },
+    "consultation_text": "최근 근로가 없으며 재취업과 정기적인 모임 참여를 희망합니다. 본인이 빠른 상담을 요청했습니다.",
+    "region_id": "gangnam",
+    "synthetic": true,
+    "evidence": [
+      {
+        "id": "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "source_type": "synthetic_case",
+        "source_ref": "dist/domain.js",
+        "record_id": "GN-001",
+        "observed_at": "2026-10-25T09:00:00+09:00",
+        "retrieved_at": "2026-10-25T14:10:45.245Z",
+        "synthetic": true,
+        "sha256": "4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad",
+        "origin_url": "https://drive.google.com/file/d/1REJ37EuPYSdMnmXjEybVjPuKD8GyH9jh/view"
+      }
+    ],
+    "contract_version": "1.0",
+    "contract_status": "provisional"
+  },
+  "needs": [
+    {
+      "id": "GN-001:employment",
+      "category": "employment",
+      "description": "기존 합성 사례의 명시적 지원 요청: employment",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001"
+      ]
+    },
+    {
+      "id": "GN-001:connection",
+      "category": "connection",
+      "description": "기존 합성 사례의 명시적 지원 요청: connection",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001"
+      ]
+    }
+  ],
+  "regional_context": {
+    "region_id": "gangnam",
+    "area": {
+      "id": "gangnam",
+      "name": "강남구",
+      "center": [
+        37.5031,
+        127.0589
+      ],
+      "zoom": 13,
+      "metrics": [
+        {
+          "label": "1인세대 비율",
+          "value": 39.8,
+          "unit": "%",
+          "detail": "2025.12 주민등록 97,519세대 / 전체 245,264세대. 통계청 1인가구와 정의가 다름."
+        },
+        {
+          "label": "65세 이상 주민 비중",
+          "value": 17.1,
+          "unit": "%",
+          "detail": "2025.12 주민등록 95,349명 / 전체 556,330명."
+        },
+        {
+          "label": "12월 통신 활동 변화",
+          "value": -1.9,
+          "unit": "%",
+          "detail": "2025.11 대비 12월, 6개월 공통 관측 격자 15,178개에서 연령·성별 통신 유동인구 수치 합을 비교. 실인원·거주자 수가 아님."
+        },
+        {
+          "label": "12월 카드 이용 변화",
+          "value": -0.2,
+          "unit": "%",
+          "detail": "2025.11 대비 12월, 지역 가맹점 카드 이용 건수를 월 일수로 나눈 일평균 비교. 전체 거주지 이용자 포함."
+        }
+      ],
+      "monthly": [
+        {
+          "month": "2025-07",
+          "activity": 100,
+          "consumption": 100
+        },
+        {
+          "month": "2025-08",
+          "activity": 95.24,
+          "consumption": 97.44
+        },
+        {
+          "month": "2025-09",
+          "activity": 100.74,
+          "consumption": 101.14
+        },
+        {
+          "month": "2025-10",
+          "activity": 94.54,
+          "consumption": 95.3
+        },
+        {
+          "month": "2025-11",
+          "activity": 98.87,
+          "consumption": 99.26
+        },
+        {
+          "month": "2025-12",
+          "activity": 97.03,
+          "consumption": 99.1
+        }
+      ],
+      "sourceNote": "2025.07~12 대회 통신·카드 집계 및 행정안전부 주민등록 통계. 월별 추이는 각 지역 2025.07=100. 개인 고립 여부나 주민의 이동을 판정하지 않습니다.",
+      "evidence": [
+        {
+          "label": "통신 관측 범위",
+          "value": "15,178개 공통 격자",
+          "note": "BLOCK_CD + X_COORD + Y_COORD가 6개월 모두 존재하는 격자. 연령·성별 값을 합산; 통신사의 전수 인구가 아님."
+        },
+        {
+          "label": "통신 활동지수",
+          "value": "97.0",
+          "note": "2025.12 / 2025.07 × 100. 계절·휴일·유입 인구 영향이 포함된 기술 통계."
+        },
+        {
+          "label": "카드 이용지수",
+          "value": "99.1",
+          "note": "가맹점 소재지 기준 일평균 이용 건수의 2025.07=100 지수. 개인별 소비·실직을 추정하지 않음."
+        },
+        {
+          "label": "65세 이상 1인세대",
+          "value": "18,952세대",
+          "note": "2025.12 주민등록 기준. 독거·고립 또는 돌봄 필요가 자동 확정되는 수치가 아님."
+        }
+      ],
+      "sources": [
+        {
+          "label": "통신·카드 지역 월별 집계",
+          "file": "analysis/monthly_combined_summary.csv"
+        },
+        {
+          "label": "주민등록 인구통계",
+          "url": "https://jumin.mois.go.kr/ageStatMonth.do",
+          "file": "public_data_2025h2/processed/population/population_households_monthly_sigungu.csv"
+        }
+      ],
+      "unitNote": "시·군·구 집계. 지도의 합성 사례 및 시설 위치와 통계적으로 결합하지 않음.",
+      "centerNote": "지역 탐색용 지도 중심점이며 개인·시설·행정기관 주소가 아님."
+    },
+    "facilities": [
+      {
+        "id": "facility-176cb7781a2f2332",
+        "name": "태화기독교사회복지관",
+        "region": "gangnam",
+        "type": "종합사회복지관",
+        "address": "서울특별시 강남구 광평로 185 (일원본동)",
+        "phone": "02-2040-1606",
+        "hours": null,
+        "sourceUrl": "https://bokji.gangnam.go.kr/map/facility.do?mid=ID05_02&pgno=5",
+        "website": null,
+        "collectedAt": "2026-10-25T20:11:48.359482+09:00",
+        "lat": null,
+        "lng": null,
+        "coordinateStatus": "unverified",
+        "note": "공식 명부의 주소이며 좌표는 수집되지 않았습니다. 현장 방문 전 기관 확인이 필요합니다."
+      },
+      {
+        "id": "facility-50fb61be54d03fad",
+        "name": "수서종합사회복지관",
+        "region": "gangnam",
+        "type": "종합사회복지관",
+        "address": "서울특별시 강남구 광평로56길 11 (수서동)",
+        "phone": "02-459-5504",
+        "hours": null,
+        "sourceUrl": "https://bokji.gangnam.go.kr/map/facility.do?mid=ID05_02&pgno=5",
+        "website": null,
+        "collectedAt": "2026-10-25T20:11:48.359482+09:00",
+        "lat": null,
+        "lng": null,
+        "coordinateStatus": "unverified",
+        "note": "공식 명부의 주소이며 좌표는 수집되지 않았습니다. 현장 방문 전 기관 확인이 필요합니다."
+      },
+      {
+        "id": "facility-4a64dc9c5aae85ac",
+        "name": "강남종합사회복지관",
+        "region": "gangnam",
+        "type": "종합사회복지관",
+        "address": "서울특별시 강남구 개포로109길 5 (개포3동)",
+        "phone": "02-451-0051",
+        "hours": null,
+        "sourceUrl": "https://bokji.gangnam.go.kr/map/facility.do?mid=ID05_02&pgno=5",
+        "website": null,
+        "collectedAt": "2026-10-25T20:11:48.359482+09:00",
+        "lat": null,
+        "lng": null,
+        "coordinateStatus": "unverified",
+        "note": "공식 명부의 주소이며 좌표는 수집되지 않았습니다. 현장 방문 전 기관 확인이 필요합니다."
+      }
+    ],
+    "data_meta": {
+      "version": "2026-10-25.2",
+      "analysisPeriod": "2025.07–2025.12",
+      "programCollectedAt": "2026-10-25",
+      "programCurrentOfferingVerified": false,
+      "caseDataType": "synthetic",
+      "chartBase": "각 지역 2025.07 = 100",
+      "activityDefinition": "6개월 공통 관측 격자의 성·연령별 통신 유동인구 수치 합",
+      "consumptionDefinition": "카드 데이터 2의 지역 가맹점 이용 건수 / 해당 월 일수",
+      "populationDefinition": "주민등록 1인세대; 통계청 1인가구와 다름",
+      "geoScope": "시·군·구 단위 지역 비교. 시설 위경도 미확인. 지도 중심은 지역 탐색용.",
+      "limitations": [
+        "지역 집계로 개인의 고립·소득·고용·연락 단절을 추정하지 않습니다.",
+        "사례·상담 기록·처리 이력은 합성 시연 데이터입니다.",
+        "지원사업 수집일은 현재 접수 확인일이 아닙니다. 모든 모집 상태는 현황 미확인입니다.",
+        "사업 조건은 검수 전 초안이며 예외·제외·중복 이용 조건을 완전히 기계화하지 않았습니다.",
+        "통신 지역 코드 매핑은 대회 범위와 좌표 군집을 이용한 잠정 매핑입니다.",
+        "통신·카드 수치는 지역별 기술 통계이며 개인 고립 예측 정확도를 의미하지 않습니다.",
+        "시설 명부 좌표가 없어 지도에 실측 시설 마커를 생성하지 않습니다."
+      ],
+      "sources": [
+        "analysis/monthly_combined_summary.csv",
+        "analysis/telecom_fixed_grid_month.csv",
+        "public_data_2025h2/processed/population/population_households_monthly_sigungu.csv",
+        "public_data_2025h2/processed/welfare/services.csv",
+        "public_data_2025h2/processed/welfare/facilities_deduplicated_candidates.csv"
+      ],
+      "dateSemantics": {
+        "analysisPeriod": "통계 관측 기간",
+        "programCollectedAt": "원문 웹페이지를 저장한 수집 날짜. 운영·모집 확인 날짜가 아님.",
+        "collectedAt": "사업/시설 원문을 저장한 수집 타임스탬프",
+        "sourceUpdatedAt": "원문에 명시한 최근 업데이트 또는 최종수정일",
+        "sourcePublishedAt": "원문 HTML에서 작성일로 확인한 날짜",
+        "sourceDisplayedAt": "게시/수정 구분이 명시되지 않은 원문 날짜",
+        "sourceDate": "모호성 방지를 위해 미사용(null)",
+        "sourceYear": "정책 적용연도로 오인하지 않도록 미사용(null)",
+        "policyYear": "실제 정책 적용연도; 미검증(null)",
+        "verifiedAt": "현행 조건·접수 확인일; 이번 스냅샷은 미검증(null)"
+      },
+      "snapshotValidation": "선택한 12개 사업의 이름·대상·신청방법·제외조건·출처 URL을 보존된 services.csv 및 원문 HTML 날짜 표시와 대조. 새 온라인 조회나 현행 자격·접수 검증은 수행하지 않음."
+    },
+    "evidence": [
+      {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:area:gangnam",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "area:gangnam",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.325Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view"
+      }
+    ],
+    "individual_inference_allowed": false
+  },
+  "candidates": [
+    {
+      "program_id": "gn-community",
+      "need_ids": [
+        "GN-001:connection"
+      ],
+      "program_name": "강남구 1인가구 커뮤니티센터 운영",
+      "match_reason": "기존 needs 코드가 일치하는 지원 요청의 후보입니다. 자격·모집·선정을 확정하지 않습니다.",
+      "evidence_ids": [
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "evidence": [
+        {
+          "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community",
+          "source_type": "collected_snapshot",
+          "source_ref": "dist/data.js",
+          "record_id": "gn-community",
+          "observed_at": null,
+          "retrieved_at": "2026-10-25T14:10:45.394Z",
+          "synthetic": false,
+          "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+          "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+          "official_url": "https://www.gangnam.go.kr/board/youthgn_biz03/list.do?mid=youthgn_biz03",
+          "collected_at": "2026-10-25T20:11:50.272686+09:00",
+          "verified_at": null,
+          "source_record": {
+            "sourceId": "gangnam_single_household",
+            "rawFile": "public_data_2025h2/raw/welfare/gangnam_single_household.html",
+            "sha256": "db35c41e8d9ce5b7553b4535d4ae507916e5015ac1af265cc65ff98842144d9b",
+            "sourceTitle": "강남구 1인가구 커뮤니티센터 운영",
+            "snapshotHttpStatus": 200
+          }
+        }
+      ],
+      "matched_categories": [
+        "connection"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "as_of": "2026-10-25",
+      "source_sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "offering": {
+        "program_id": "gn-community",
+        "field": "offering",
+        "result": "unknown",
+        "reason": "모집 상태는 자격 조건과 별도로 확인합니다.",
+        "evidence_ids": [
+          "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001"
+        ],
+        "rule_version": "snapshot-draft-2026-10-25",
+        "evaluator_version": "s2-snapshot-review-1.0",
+        "as_of": "2026-10-25",
+        "axis": "offering",
+        "eligibility_condition": false,
+        "request": {
+          "field": "offering",
+          "audience": "agency",
+          "document_type": null,
+          "question": "현재 모집·대기 접수·정원 상태를 확인해 주세요."
+        },
+        "offering_status": "unknown",
+        "verified_at": null,
+        "collected_at": "2026-10-25T20:11:50.272686+09:00"
+      }
+    },
+    {
+      "program_id": "gn-volunteer",
+      "need_ids": [
+        "GN-001:connection"
+      ],
+      "program_name": "노인자원봉사",
+      "match_reason": "기존 needs 코드가 일치하는 지원 요청의 후보입니다. 자격·모집·선정을 확정하지 않습니다.",
+      "evidence_ids": [
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "evidence": [
+        {
+          "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer",
+          "source_type": "collected_snapshot",
+          "source_ref": "dist/data.js",
+          "record_id": "gn-volunteer",
+          "observed_at": null,
+          "retrieved_at": "2026-10-25T14:10:45.394Z",
+          "synthetic": false,
+          "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+          "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+          "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+          "collected_at": "2026-10-25T20:11:49.622510+09:00",
+          "verified_at": null,
+          "source_record": {
+            "sourceId": "gangnam_senior_services",
+            "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+            "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+            "sourceTitle": "강남구 어르신지원정책",
+            "snapshotHttpStatus": 200
+          }
+        }
+      ],
+      "matched_categories": [
+        "connection"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "as_of": "2026-10-25",
+      "source_sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "offering": {
+        "program_id": "gn-volunteer",
+        "field": "offering",
+        "result": "unknown",
+        "reason": "모집 상태는 자격 조건과 별도로 확인합니다.",
+        "evidence_ids": [
+          "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001"
+        ],
+        "rule_version": "snapshot-draft-2026-10-25",
+        "evaluator_version": "s2-snapshot-review-1.0",
+        "as_of": "2026-10-25",
+        "axis": "offering",
+        "eligibility_condition": false,
+        "request": {
+          "field": "offering",
+          "audience": "agency",
+          "document_type": null,
+          "question": "현재 모집·대기 접수·정원 상태를 확인해 주세요."
+        },
+        "offering_status": "unknown",
+        "verified_at": null,
+        "collected_at": "2026-10-25T20:11:49.622510+09:00"
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "need_ids": [
+        "GN-001:connection"
+      ],
+      "program_name": "노인맞춤돌봄서비스",
+      "match_reason": "기존 needs 코드가 일치하는 지원 요청의 후보입니다. 자격·모집·선정을 확정하지 않습니다.",
+      "evidence_ids": [
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "evidence": [
+        {
+          "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+          "source_type": "collected_snapshot",
+          "source_ref": "dist/data.js",
+          "record_id": "gn-tailored-care",
+          "observed_at": null,
+          "retrieved_at": "2026-10-25T14:10:45.394Z",
+          "synthetic": false,
+          "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+          "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+          "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+          "collected_at": "2026-10-25T20:11:49.622510+09:00",
+          "verified_at": null,
+          "source_record": {
+            "sourceId": "gangnam_senior_services",
+            "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+            "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+            "sourceTitle": "강남구 어르신지원정책",
+            "snapshotHttpStatus": 200
+          }
+        }
+      ],
+      "matched_categories": [
+        "connection"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "as_of": "2026-10-25",
+      "source_sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "offering": {
+        "program_id": "gn-tailored-care",
+        "field": "offering",
+        "result": "unknown",
+        "reason": "모집 상태는 자격 조건과 별도로 확인합니다.",
+        "evidence_ids": [
+          "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001"
+        ],
+        "rule_version": "snapshot-draft-2026-10-25",
+        "evaluator_version": "s2-snapshot-review-1.0",
+        "as_of": "2026-10-25",
+        "axis": "offering",
+        "eligibility_condition": false,
+        "request": {
+          "field": "offering",
+          "audience": "agency",
+          "document_type": null,
+          "question": "현재 모집·대기 접수·정원 상태를 확인해 주세요."
+        },
+        "offering_status": "unknown",
+        "verified_at": null,
+        "collected_at": "2026-10-25T20:11:49.622510+09:00"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "program_id": "gn-community",
+      "field": "region",
+      "result": "pass",
+      "reason": "사례 거주지와 수집된 사업 지역 조건을 대조했습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": null,
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-community",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://www.gangnam.go.kr/board/youthgn_biz03/list.do?mid=youthgn_biz03",
+        "collected_at": "2026-10-25T20:11:50.272686+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_single_household",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_single_household.html",
+          "sha256": "db35c41e8d9ce5b7553b4535d4ae507916e5015ac1af265cc65ff98842144d9b",
+          "sourceTitle": "강남구 1인가구 커뮤니티센터 운영",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-community",
+      "field": "living_alone",
+      "result": "pass",
+      "reason": "혼자 거주 응답을 확인했습니다. 공식 가구 기준·다른 대상 경로는 별도 확인합니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": null,
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-community",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://www.gangnam.go.kr/board/youthgn_biz03/list.do?mid=youthgn_biz03",
+        "collected_at": "2026-10-25T20:11:50.272686+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_single_household",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_single_household.html",
+          "sha256": "db35c41e8d9ce5b7553b4535d4ae507916e5015ac1af265cc65ff98842144d9b",
+          "sourceTitle": "강남구 1인가구 커뮤니티센터 운영",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-community",
+      "field": "rules_approved",
+      "result": "unknown",
+      "reason": "수집 자료의 규칙 승인 상태입니다. 개별 필드 비교는 기관의 최종 자격 결정이 아닙니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "verification",
+      "eligibility_condition": false,
+      "request": {
+        "field": "rules_approved",
+        "audience": "reviewer",
+        "document_type": null,
+        "question": "공식 원문과 기계 규칙을 검수해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-community",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://www.gangnam.go.kr/board/youthgn_biz03/list.do?mid=youthgn_biz03",
+        "collected_at": "2026-10-25T20:11:50.272686+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_single_household",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_single_household.html",
+          "sha256": "db35c41e8d9ce5b7553b4535d4ae507916e5015ac1af265cc65ff98842144d9b",
+          "sourceTitle": "강남구 1인가구 커뮤니티센터 운영",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-community",
+      "field": "current_conditions",
+      "result": "unknown",
+      "reason": "현행 검증일 기준의 스냅샷 신선도 확인입니다. 수집일·게시일은 현행 검증일로 사용하지 않습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "verification",
+      "eligibility_condition": false,
+      "request": {
+        "field": "current_conditions",
+        "audience": "agency",
+        "document_type": null,
+        "question": "현행 사업 조건과 적용 연도를 확인해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-community",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://www.gangnam.go.kr/board/youthgn_biz03/list.do?mid=youthgn_biz03",
+        "collected_at": "2026-10-25T20:11:50.272686+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_single_household",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_single_household.html",
+          "sha256": "db35c41e8d9ce5b7553b4535d4ae507916e5015ac1af265cc65ff98842144d9b",
+          "sourceTitle": "강남구 1인가구 커뮤니티센터 운영",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-community",
+      "field": "detailed_conditions",
+      "result": "unknown",
+      "reason": "하위 서비스·예외·중복 이용·기관 심사 등 미구조화 조건을 기관이 확인해야 합니다. 강남구 거주 1인가구 /  / 원문은 강남구 거주 1인가구. 주민등록/실제 거주 요건, 현재 1인가구 여부 및 세부 프로그램 추가 조건을 확인. 혼인 상태에서 독거를 추론하지 않음. 센터 운영 안내가 개별 소모임 접수 가능을 의미하지 않음.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": {
+        "field": "detailed_conditions",
+        "audience": "agency",
+        "document_type": null,
+        "question": "지원대상·예외·제외·중복 이용 및 하위 서비스 조건을 검수해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-community",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://www.gangnam.go.kr/board/youthgn_biz03/list.do?mid=youthgn_biz03",
+        "collected_at": "2026-10-25T20:11:50.272686+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_single_household",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_single_household.html",
+          "sha256": "db35c41e8d9ce5b7553b4535d4ae507916e5015ac1af265cc65ff98842144d9b",
+          "sourceTitle": "강남구 1인가구 커뮤니티센터 운영",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-community",
+      "field": "offering",
+      "result": "unknown",
+      "reason": "모집 상태는 자격 조건과 별도로 확인합니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "offering",
+      "eligibility_condition": false,
+      "request": {
+        "field": "offering",
+        "audience": "agency",
+        "document_type": null,
+        "question": "현재 모집·대기 접수·정원 상태를 확인해 주세요."
+      },
+      "offering_status": "unknown",
+      "verified_at": null,
+      "collected_at": "2026-10-25T20:11:50.272686+09:00",
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-community",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://www.gangnam.go.kr/board/youthgn_biz03/list.do?mid=youthgn_biz03",
+        "collected_at": "2026-10-25T20:11:50.272686+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_single_household",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_single_household.html",
+          "sha256": "db35c41e8d9ce5b7553b4535d4ae507916e5015ac1af265cc65ff98842144d9b",
+          "sourceTitle": "강남구 1인가구 커뮤니티센터 운영",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "region",
+      "result": "pass",
+      "reason": "사례 거주지와 수집된 사업 지역 조건을 대조했습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": null,
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-volunteer",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "age",
+      "result": "pass",
+      "reason": "수집 초안 연령 조건 60~None세와 확인한 나이 63세를 비교했습니다. 하위 서비스·예외는 별도 검수 대상입니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": null,
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-volunteer",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "rules_approved",
+      "result": "unknown",
+      "reason": "수집 자료의 규칙 승인 상태입니다. 개별 필드 비교는 기관의 최종 자격 결정이 아닙니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "verification",
+      "eligibility_condition": false,
+      "request": {
+        "field": "rules_approved",
+        "audience": "reviewer",
+        "document_type": null,
+        "question": "공식 원문과 기계 규칙을 검수해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-volunteer",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "current_conditions",
+      "result": "unknown",
+      "reason": "현행 검증일 기준의 스냅샷 신선도 확인입니다. 수집일·게시일은 현행 검증일로 사용하지 않습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "verification",
+      "eligibility_condition": false,
+      "request": {
+        "field": "current_conditions",
+        "audience": "agency",
+        "document_type": null,
+        "question": "현행 사업 조건과 적용 연도를 확인해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-volunteer",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "detailed_conditions",
+      "result": "unknown",
+      "reason": "하위 서비스·예외·중복 이용·기관 심사 등 미구조화 조건을 기관이 확인해야 합니다. 60세이상 어르신 /  / 60세 이상이라는 원문 연령을 구조화. 활동 종류·참여 가능 일정·모집 상태는 기관 확인. 자원봉사는 고용·급여 지급 사업이 아니며 취업지원으로 분류하지 않음.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": {
+        "field": "detailed_conditions",
+        "audience": "agency",
+        "document_type": null,
+        "question": "지원대상·예외·제외·중복 이용 및 하위 서비스 조건을 검수해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-volunteer",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "offering",
+      "result": "unknown",
+      "reason": "모집 상태는 자격 조건과 별도로 확인합니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "offering",
+      "eligibility_condition": false,
+      "request": {
+        "field": "offering",
+        "audience": "agency",
+        "document_type": null,
+        "question": "현재 모집·대기 접수·정원 상태를 확인해 주세요."
+      },
+      "offering_status": "unknown",
+      "verified_at": null,
+      "collected_at": "2026-10-25T20:11:49.622510+09:00",
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-volunteer",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "field": "region",
+      "result": "pass",
+      "reason": "사례 거주지와 수집된 사업 지역 조건을 대조했습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": null,
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-tailored-care",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "field": "age",
+      "result": "fail",
+      "reason": "수집 초안 연령 조건 65~None세와 확인한 나이 63세를 비교했습니다. 하위 서비스·예외는 별도 검수 대상입니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": null,
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-tailored-care",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "field": "income",
+      "result": "unknown",
+      "reason": "소득·수급 조건의 가구 기준, 적용 연도, 비교 단위와 임계값이 구조화·검수되지 않아 계산하지 않았습니다. 일반 소득확인 또는 다른 사업 판정을 재사용하지 않습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": {
+        "field": "income_context",
+        "audience": "resident",
+        "document_type": null,
+        "question": "이 사업에 필요한 현재 가구 구성과 수급 유형·소득 자료의 보유 여부를 확인해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-tailored-care",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "field": "rules_approved",
+      "result": "unknown",
+      "reason": "수집 자료의 규칙 승인 상태입니다. 개별 필드 비교는 기관의 최종 자격 결정이 아닙니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "verification",
+      "eligibility_condition": false,
+      "request": {
+        "field": "rules_approved",
+        "audience": "reviewer",
+        "document_type": null,
+        "question": "공식 원문과 기계 규칙을 검수해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-tailored-care",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "field": "current_conditions",
+      "result": "unknown",
+      "reason": "현행 검증일 기준의 스냅샷 신선도 확인입니다. 수집일·게시일은 현행 검증일로 사용하지 않습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "verification",
+      "eligibility_condition": false,
+      "request": {
+        "field": "current_conditions",
+        "audience": "agency",
+        "document_type": null,
+        "question": "현행 사업 조건과 적용 연도를 확인해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-tailored-care",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "field": "detailed_conditions",
+      "result": "unknown",
+      "reason": "하위 서비스·예외·중복 이용·기관 심사 등 미구조화 조건을 기관이 확인해야 합니다. 65세 이상 국민기초생활수급자, 차상위계층 또는 기초연금수급자 / 재가서비스사업의 대상이 아닌 자 의료기관 입원 중인 노인, 국민기초생활보장법 제32조에 따른 보장시설 입소자 국고사업에 의하여 동일한 또는 유사한 재가서비스를 받고 있는 자 자활근로에 의한 간병서비스, 노인돌봄기본서비스, 노인복지법에 의한 방문요양 서비스(구. 가정봉사원파견사업), 노인장기요양보험(저소득층본인일부부담금지원, 특별현금급여, 재가급여, 시설급여), 국가보훈처 복지도우미, 기타 정부부처, 지방자치단체에서 시행하는 사회서비스일자리사업의 가사간병서비스 등 이에 준하는 재가서비스 실제 주거를 같이 하는 가구원이 노인돌봄종합서비스, 가사간병서비스, 노인장기요양보험, 방문요양서비스를 받고 있을 경우 서비스 대상에서 제외 / 65세 이상과 수급·차상위·기초연금 경로를 확인한 초안. 원문 제외 조건에는 구 제도 명칭 및 가구원 서비스 조건이 섞여 있어 그대로 자동 배제 규칙으로 실행하지 않음. 본인 기존 서비스, 돌봄 필요, 현행 중복 제한·예외를 기관에서 재확인. 기혼·동거만으로 탈락시키지 않음.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "eligibility",
+      "eligibility_condition": true,
+      "request": {
+        "field": "detailed_conditions",
+        "audience": "agency",
+        "document_type": null,
+        "question": "지원대상·예외·제외·중복 이용 및 하위 서비스 조건을 검수해 주세요."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-tailored-care",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "field": "offering",
+      "result": "unknown",
+      "reason": "모집 상태는 자격 조건과 별도로 확인합니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "offering",
+      "eligibility_condition": false,
+      "request": {
+        "field": "offering",
+        "audience": "agency",
+        "document_type": null,
+        "question": "현재 모집·대기 접수·정원 상태를 확인해 주세요."
+      },
+      "offering_status": "unknown",
+      "verified_at": null,
+      "collected_at": "2026-10-25T20:11:49.622510+09:00",
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-tailored-care",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    },
+    {
+      "program_id": "gn-tailored-care",
+      "field": "required_document:신분증",
+      "result": "unknown",
+      "reason": "기존 공식 수집 목록에 명시된 서류: 신분증. 현행 필수 여부는 기관 확인 대상입니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25",
+      "evaluator_version": "s2-snapshot-review-1.0",
+      "as_of": "2026-10-25",
+      "axis": "document",
+      "eligibility_condition": false,
+      "request": {
+        "field": "required_document:신분증",
+        "audience": "resident",
+        "document_type": "신분증",
+        "question": "수집 안내에 명시된 신분증의 보유 여부를 확인해 주세요. 현행 제출 요구는 기관에 재확인합니다."
+      },
+      "source_evidence": {
+        "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+        "source_type": "collected_snapshot",
+        "source_ref": "dist/data.js",
+        "record_id": "gn-tailored-care",
+        "observed_at": null,
+        "retrieved_at": "2026-10-25T14:10:45.462Z",
+        "synthetic": false,
+        "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+        "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+        "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+        "collected_at": "2026-10-25T20:11:49.622510+09:00",
+        "verified_at": null,
+        "source_record": {
+          "sourceId": "gangnam_senior_services",
+          "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+          "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+          "sourceTitle": "강남구 어르신지원정책",
+          "snapshotHttpStatus": 200
+        }
+      }
+    }
+  ],
+  "need_results": [
+    {
+      "need_id": "GN-001:employment",
+      "category": "employment",
+      "candidate_ids": [],
+      "not_rejected_ids": [],
+      "resolution_status": "unmatched",
+      "reason": "기존 목록에 해당 요청의 후보가 없습니다."
+    },
+    {
+      "need_id": "GN-001:connection",
+      "category": "connection",
+      "candidate_ids": [
+        "gn-community",
+        "gn-volunteer",
+        "gn-tailored-care"
+      ],
+      "not_rejected_ids": [
+        "gn-community",
+        "gn-volunteer"
+      ],
+      "resolution_status": "provisional_candidates",
+      "reason": "후보가 있으나 현행 자격·모집·기관 심사는 미확인입니다."
+    }
+  ],
+  "unresolved_items": [
+    {
+      "need_id": "GN-001:employment",
+      "reason": "기존 목록에 해당 요청의 후보가 없습니다."
+    },
+    {
+      "need_id": "GN-001:connection",
+      "reason": "후보가 있으나 현행 자격·모집·기관 심사는 미확인입니다."
+    }
+  ],
+  "document_requests": [],
+  "document_request_policy": {
+    "max_rounds": 1,
+    "skip_allowed": true,
+    "request_rounds_executed": 0,
+    "scope": "S2 builds a bundle; S3 enforces the run-level counter"
+  },
+  "verification_tasks": [
+    {
+      "program_id": "gn-community",
+      "field": "rules_approved",
+      "audience": "reviewer",
+      "document_type": null,
+      "question": "공식 원문과 기계 규칙을 검수해 주세요.",
+      "reason": "수집 자료의 규칙 승인 상태입니다. 개별 필드 비교는 기관의 최종 자격 결정이 아닙니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25"
+    },
+    {
+      "program_id": "gn-community",
+      "field": "current_conditions",
+      "audience": "agency",
+      "document_type": null,
+      "question": "현행 사업 조건과 적용 연도를 확인해 주세요.",
+      "reason": "현행 검증일 기준의 스냅샷 신선도 확인입니다. 수집일·게시일은 현행 검증일로 사용하지 않습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25"
+    },
+    {
+      "program_id": "gn-community",
+      "field": "detailed_conditions",
+      "audience": "agency",
+      "document_type": null,
+      "question": "지원대상·예외·제외·중복 이용 및 하위 서비스 조건을 검수해 주세요.",
+      "reason": "하위 서비스·예외·중복 이용·기관 심사 등 미구조화 조건을 기관이 확인해야 합니다. 강남구 거주 1인가구 /  / 원문은 강남구 거주 1인가구. 주민등록/실제 거주 요건, 현재 1인가구 여부 및 세부 프로그램 추가 조건을 확인. 혼인 상태에서 독거를 추론하지 않음. 센터 운영 안내가 개별 소모임 접수 가능을 의미하지 않음.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25"
+    },
+    {
+      "program_id": "gn-community",
+      "field": "offering",
+      "audience": "agency",
+      "document_type": null,
+      "question": "현재 모집·대기 접수·정원 상태를 확인해 주세요.",
+      "reason": "모집 상태는 자격 조건과 별도로 확인합니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25"
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "rules_approved",
+      "audience": "reviewer",
+      "document_type": null,
+      "question": "공식 원문과 기계 규칙을 검수해 주세요.",
+      "reason": "수집 자료의 규칙 승인 상태입니다. 개별 필드 비교는 기관의 최종 자격 결정이 아닙니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25"
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "current_conditions",
+      "audience": "agency",
+      "document_type": null,
+      "question": "현행 사업 조건과 적용 연도를 확인해 주세요.",
+      "reason": "현행 검증일 기준의 스냅샷 신선도 확인입니다. 수집일·게시일은 현행 검증일로 사용하지 않습니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25"
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "detailed_conditions",
+      "audience": "agency",
+      "document_type": null,
+      "question": "지원대상·예외·제외·중복 이용 및 하위 서비스 조건을 검수해 주세요.",
+      "reason": "하위 서비스·예외·중복 이용·기관 심사 등 미구조화 조건을 기관이 확인해야 합니다. 60세이상 어르신 /  / 60세 이상이라는 원문 연령을 구조화. 활동 종류·참여 가능 일정·모집 상태는 기관 확인. 자원봉사는 고용·급여 지급 사업이 아니며 취업지원으로 분류하지 않음.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25"
+    },
+    {
+      "program_id": "gn-volunteer",
+      "field": "offering",
+      "audience": "agency",
+      "document_type": null,
+      "question": "현재 모집·대기 접수·정원 상태를 확인해 주세요.",
+      "reason": "모집 상태는 자격 조건과 별도로 확인합니다.",
+      "evidence_ids": [
+        "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+        "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer"
+      ],
+      "rule_version": "snapshot-draft-2026-10-25"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "domain.js:4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad:GN-001",
+      "source_type": "synthetic_case",
+      "source_ref": "dist/domain.js",
+      "record_id": "GN-001",
+      "observed_at": "2026-10-25T09:00:00+09:00",
+      "retrieved_at": "2026-10-25T14:10:45.245Z",
+      "synthetic": true,
+      "sha256": "4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad",
+      "origin_url": "https://drive.google.com/file/d/1REJ37EuPYSdMnmXjEybVjPuKD8GyH9jh/view"
+    },
+    {
+      "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:area:gangnam",
+      "source_type": "collected_snapshot",
+      "source_ref": "dist/data.js",
+      "record_id": "area:gangnam",
+      "observed_at": null,
+      "retrieved_at": "2026-10-25T14:10:45.325Z",
+      "synthetic": false,
+      "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view"
+    },
+    {
+      "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-community",
+      "source_type": "collected_snapshot",
+      "source_ref": "dist/data.js",
+      "record_id": "gn-community",
+      "observed_at": null,
+      "retrieved_at": "2026-10-25T14:10:45.462Z",
+      "synthetic": false,
+      "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+      "official_url": "https://www.gangnam.go.kr/board/youthgn_biz03/list.do?mid=youthgn_biz03",
+      "collected_at": "2026-10-25T20:11:50.272686+09:00",
+      "verified_at": null,
+      "source_record": {
+        "sourceId": "gangnam_single_household",
+        "rawFile": "public_data_2025h2/raw/welfare/gangnam_single_household.html",
+        "sha256": "db35c41e8d9ce5b7553b4535d4ae507916e5015ac1af265cc65ff98842144d9b",
+        "sourceTitle": "강남구 1인가구 커뮤니티센터 운영",
+        "snapshotHttpStatus": 200
+      }
+    },
+    {
+      "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-volunteer",
+      "source_type": "collected_snapshot",
+      "source_ref": "dist/data.js",
+      "record_id": "gn-volunteer",
+      "observed_at": null,
+      "retrieved_at": "2026-10-25T14:10:45.462Z",
+      "synthetic": false,
+      "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+      "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+      "collected_at": "2026-10-25T20:11:49.622510+09:00",
+      "verified_at": null,
+      "source_record": {
+        "sourceId": "gangnam_senior_services",
+        "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+        "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+        "sourceTitle": "강남구 어르신지원정책",
+        "snapshotHttpStatus": 200
+      }
+    },
+    {
+      "id": "data.js:7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d:gn-tailored-care",
+      "source_type": "collected_snapshot",
+      "source_ref": "dist/data.js",
+      "record_id": "gn-tailored-care",
+      "observed_at": null,
+      "retrieved_at": "2026-10-25T14:10:45.462Z",
+      "synthetic": false,
+      "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "origin_url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+      "official_url": "https://bokji.gangnam.go.kr/board/senior_support/list.do?mid=ID06_06",
+      "collected_at": "2026-10-25T20:11:49.622510+09:00",
+      "verified_at": null,
+      "source_record": {
+        "sourceId": "gangnam_senior_services",
+        "rawFile": "public_data_2025h2/raw/welfare/gangnam_senior_services.html",
+        "sha256": "06e0e2754631fa43251c68c8eb5d2020b18482d24d93ec99e12e075bd533dc54",
+        "sourceTitle": "강남구 어르신지원정책",
+        "snapshotHttpStatus": 200
+      }
+    }
+  ],
+  "rejected_candidate_ids": [
+    "gn-tailored-care"
+  ],
+  "source_hashes": {
+    "data.js": {
+      "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "bytes": 45760
+    },
+    "domain.js": {
+      "sha256": "4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad",
+      "bytes": 17366
+    }
+  },
+  "one_run_result": {
+    "passed": true,
+    "assertions": {
+      "case_is_synthetic": true,
+      "employment_not_substituted_by_volunteering": true,
+      "connection_has_existing_candidates": true,
+      "candidate_limits": true,
+      "all_checks_traceable": true,
+      "all_evidence_resolves": true,
+      "offering_is_separate": true,
+      "unverified_offering_preserved": true,
+      "no_requests_for_rejected_candidates": true,
+      "single_deduplicated_bundle": true,
+      "regional_context_not_merged_into_person": true
+    },
+    "meaning": "S2 standalone snapshot flow only"
+  },
+  "blocker": "S0 확정 스키마·S3 호출부 미수신. M2 통합과 현행 기관 자격·모집 확인은 미실행.",
+  "next_handoff": "S0 필드 계약 확정 후 S3에 5개 Python 함수 연결"
+}

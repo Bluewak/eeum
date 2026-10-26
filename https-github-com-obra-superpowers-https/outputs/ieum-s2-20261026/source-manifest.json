@@ -1,0 +1,32 @@
+{
+  "scope": "S2 existing data sources only",
+  "contract_status": "provisional",
+  "files": [
+    {
+      "path": "dist/domain.js",
+      "url": "https://drive.google.com/file/d/1REJ37EuPYSdMnmXjEybVjPuKD8GyH9jh/view",
+      "sha256": "4ea4eab279812e93bf469ac7056575b887e4ed7d9b6c917f8d76e0d46d557bad",
+      "bytes": 17366
+    },
+    {
+      "path": "dist/data.js",
+      "url": "https://drive.google.com/file/d/1bdzJzXPk4eOTWJ-LXFUNAuEAc_x24sqz/view",
+      "sha256": "7f69cb234a13c089097e7bd3a44a49abdcba4f7c53f052169054c50f0856353d",
+      "bytes": 45760
+    }
+  ],
+  "references": [
+    {
+      "url": "https://drive.google.com/file/d/1xqvp5_xVsmG7rvFmxdTdAK6OfaWexJ-6/view",
+      "role": "Existing provenance"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1RbELLWPYLS1M4oQi3VEY5Gvnq6AcioFF/view",
+      "role": "Read-only review of broader 18-record source; not runtime catalogue"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xQjTddhbpqCjNmTwFucY37vneRZb9sJ2/view",
+      "role": "S1 notes explicitly mark S0 schema as not received"
+    }
+  ]
+}
